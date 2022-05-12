@@ -1,0 +1,116 @@
+body{
+    background: #ffffff;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p2{
+color: white;
+}
+
+/*heading styling */
+h3 {
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  padding:15px 0px;
+  color: #ffffff;
+	margin: 5px;
+  font-family: 'Montserrat', sans-serif;
+  z-index: 1;
+}
+
+/*heading styling */
+h4 {
+  font-weight: bold;
+	margin: 0;
+  font-size: 28px;
+  padding: 35px 0px;
+  color: #20b51b;
+}
+
+/*heading styling */
+h5 {
+  font-weight: bold;
+	margin: 0;
+  font-size: 28px;
+  padding: 35px 0px;
+  color: #ffffff;
+}
+
+/*top header intro styling */
+.introcontainer {
+  height: 100px;
+  width: 100%;
+  display: inline-block;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  width: 100%;
+  overflow: hidden;
+  background-color: #1c9617;
+  z-index: -1;
+}
+  
+/* Style the topnav links */
+.topnav a {
+  font-family: 'Montserrat', sans-serif;
+  float: right;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 22px 18px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #20b51b;
+  color: black;
+}
+
+/* workout table container styling*/
+.addexercise {
+  margin: auto;
+  width: 60%;
+  height: auto;
+  text-align: center;
+  border: 10px solid #1c9617;
+  background-color: #20b51b;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* input field styling */
+input{
+    background: #ffffff;
+    width: 70%;
+    
+}
+
+/* workout inner container */
+.workoutcont{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Styling of table headings and data */
+th,td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+/* Style data*/
+#data {
+	margin-bottom: 10px;
+}
+
+/* Style data input and buttons*/
+#data input, button {
+	padding: 10px;
+	width: 90px;
+}

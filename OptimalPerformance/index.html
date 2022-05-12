@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8">
+      <title>Landing page</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <style>
+      /*-- this is the styling for each of the seperate buttons for the landing page */
+     .button {
+      border-radius: 8px;
+      text-transform: uppercase;
+      padding: 0;
+      width: auto;
+      height: auto;
+      text-align: center;
+      text-decoration: None;
+      display: flex;
+      font-size: 16px;
+    }
+  
+  /* apple button styling */
+    .button1 {
+      background-color: white;
+      color: black;
+      border: 2px solid #A2AAAD;
+    }
+    
+    .button1:hover {
+      background-color: #A2AAAD;
+      color: white;
+    }
+    
+    /* google button styling */
+    .button2 {
+      background-color: white;
+      color: black;
+      border: 2px solid #EA4335;
+    }
+    
+    .button2:hover {
+      background-color: #EA4335;
+      color: white;
+    }
+    
+    /*facebook button styling */
+    .button3 {
+      background-color: white;
+      color: black;
+      border: 2px solid #3B5998;
+    }
+    
+    .button3:hover {
+      background-color: #3B5998;
+      color: white;
+    }
+    
+    /* sign up and login button styling */
+    .button4 {
+      background-color: white;
+      color: black;
+      border: 2px solid #FBBC05;
+    }
+    
+    .button4:hover {
+      background-color: #FBBC05;
+      color: white;
+    }
+    </style>
+    <h2> </h2>
+  </head>
+  
+    <body style= "background-color: #20b51b" >
+        <section id="log in">   
+          <div class=" overlay-panel">
+            <div>
+            <img src="OP.logo.jpeg" alt="logo"
+              width="300"
+              height="300"
+              border = 3px>
+            </div>
+        				<h1>Hello, Friend!</h1>
+        				<p>Enter your personal details and start your journey with us</p>
+          </div>
+          <!-- this is the container for the landing page linls -->
+          <div class="form-container ">
+
+            <!-- the container for the buttons-->
+                <div class="social-container a">
+
+                  <!-- sign up page button link -->
+                   <a href="signup.php" class= "button button4">Sign Up</a>
+                   <div></div>
+                   <!-- the links to sign up with Apple, Google and Facebook haven't currently been to do anything but this is how the links have been formatted-->
+                   <a href="home.php" class="button button1">Continue with Apple</a>
+                   <div></div>
+                   <a href="signup.html" class="button button2">Continue with Google</a>
+                   <div></div>
+                   <a href="signup.html" class="button button3"> Continue with Facebook</a>
+                   <div></div>
+                   <!-- login page button link -->
+                   <a href="loginindex.php" class="button button4"> Log in</a>
+                </div>
+          </div>
+      </section>
+    </body>
+</html>
